@@ -15,6 +15,7 @@ class Ticket {
     Ticket(std::string code, std::string name, std::string destination, double price, int stock);
     Ticket(const Ticket& ticket);
     ~Ticket();
+    void setTicketCode(const std::string code);
     friend void cetak_barang(Ticket& ticket);
 };
 

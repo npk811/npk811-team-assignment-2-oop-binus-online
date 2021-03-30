@@ -20,3 +20,6 @@ Ticket::Ticket(const Ticket& ticket){
 Ticket::~Ticket(){
   // destructor Ticket
 }
+void Ticket::setTicketCode(const std::string code){
+  ticketCode = code;
+};
